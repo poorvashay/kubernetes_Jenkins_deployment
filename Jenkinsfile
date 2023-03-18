@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    dockerimagename = "praveensingam1994/nodeapp"
+    dockerimagename = "poorvashay/nodeapp"
     dockerImage = ""
   }
   
@@ -10,7 +10,7 @@ pipeline {
 
 //     stage('Checkout Source') {
 //       steps {
-//         git 'https://github.com/praveen1994dec/kubernetes_Jenkins_deployment.git'
+//         git 'https://github.com/poorvashay/kubernetes_Jenkins_deployment.git'
 //       }
 //     }
         
